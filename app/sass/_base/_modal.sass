@@ -1,19 +1,38 @@
 .modal
 	position: relative
-	max-width: 725px
+	max-width: 560px
 	width: 100%
 	height: auto
-	padding: 60px 75px 145px
+	padding: 45px
 	margin: 20px 0
 	background-color: #fff
 	z-index: 1
 	box-shadow: 0 0 16px rgba(0, 0, 0, 0.29)
-	border-radius: 20px
-	border: 10px solid #273a72
+	border-radius: 5px
+	text-align: center
 
-	h3
-		justify-content: flex-start
-		margin-bottom: 50px
+	+r(992)
+		max-width: 480px
+		padding: 20px
+
+	h2
+		margin-bottom: 30px
+		text-align: center
+
+	input
+		border-color: $accent
+		color: $accent
+
+		&::placeholder
+			color: $accent
+
+	&__line
+		margin-bottom: 25px
+
+	&__btn
+		display: flex
+		justify-content: center
+
 
 	&__close
 		position: absolute

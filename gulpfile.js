@@ -46,6 +46,7 @@ gulp.task('scripts', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',  			//----jquery
 		'app/libs/jquery.popupoverlay.js', 				//----модалки
+		'app/libs/swiper/swiper.min.js', 				//----модалки
 		'app/js/common.js', // Always at the end
 		])
 	.pipe(concat('scripts.min.js'))

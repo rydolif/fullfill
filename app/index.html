@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Главная</title>
+	<title>Oтветственное хранение и фулфилмент для малого бизнеса</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width">
 	<link rel="icon" href="img/favicon.ico">
@@ -13,15 +13,11 @@
 
 <body>
 
-<!-- 	<div class="preloader">
-		<div class="pulse"></div>
-	</div> -->
-
 	<header class="header">
-		<div class="header__container container">
+		<div class="header__container">
 
-			<a href="/" class="header__logo header__logo">
-				<img src="img/logo.svg" alt="logo">
+			<a href="/" class="header__logo">
+				<img src="img/logo.png" alt="logo">
 			</a>
 
 			<button class="hamburger" type="button">
@@ -30,51 +26,376 @@
 				</span>
 			</button>
 
-			<nav class="nav">
-				<ul>
-					<li><a href="index.html">Головна</a></li>
-					<li><a href="catalog.html">Наші послуги</a></li>
-					<li><a href="about.html">Виконанні роботи</a></li>
-					<li><a href="contacts.html">Контакти</a></li>
+			<nav class="header__nav nav">
+				<ul class="click">
+					<li><a href="#hero">Главная</a></li>
+					<li><a href="#services">Услуги</a></li>
+					<li><a href="#about">О фулфилменте</a></li>
+					<li><a href="#rates">Тарифы</a></li>
+					<li><a href="#about__info">Преимущества</a></li>
+					<li><a href="#contacts">Контакты</a></li>
 				</ul>
+				<div class="header__nav_info">
+					<a href="mailto:info@lk-forward.ru" class="header__info_mail">info@lk-forward.ru</a>
+					<a href="tel:+1234567890" class="header__info_tel">+1234567890</a>
+					<a href="#" class="btn order_open">Заказать звонок</a>
+				</div>
 			</nav>
+
+			<div class="header__info">
+				<a href="mailto:info@lk-forward.ru" class="header__info_mail">info@lk-forward.ru</a>
+				<a href="tel:+1234567890" class="header__info_tel">+1234567890</a>
+				<a href="#" class="btn order_open">Заказать звонок</a>
+			</div>
 
 		</div>
 	</header>
 
-	<main class="main">
-
-		<section class="">
-			<div class="container">
-				<h1>Start</h1>
+	<section class="hero" id="hero">
+		<div class="hero__container container">
+			<h1>
+				Oтветственное <b>хранение <br>и фулфилмент</b> <br>для малого бизнеса
+			</h1>
+			<p class="hero__subtitle">
+				Мы знаем проблемы растущих компаний и помогаем их решать. Занимайтесь
+				<br> продажами, а всю Вашу логистику мы возьмем на себя!
+			</p>
+			<p class="hero__text">
+				<b><img src="img/svg/placeholder.svg" alt=""> Адрес склада:</b><br> МО, с. Беседы, Промышленный проезд, д. 7 (1 км от МКАД)
+			</p>
+			<div class="hero__mouse click">
+				<a href="#info"><img src="img/svg/mouse.svg" alt=""></a>
 			</div>
-		</section>
+		</div>
+	</section>
 
-	</main>
+	<section class="info" id="info">
+		<div class="info__container container container--bg">
+			
+			<div class="info__list">
+				<div class="info__item">
+					<img src="img/svg/warehouse.svg" alt="">
+					<p><b>Cовременный склад</b> класса B+ в 1км от МКАДа </p>
+				</div>
+				<div class="info__item">
+					<h3>4+</h3>
+					<p><b>Года</b> успешного опыта в ответственном хранении и фулфилменте</p>
+				</div>
+				<div class="info__item">
+					<h3>30+</h3>
+					<p><b>Довольных клиентов,</b> в т.ч. компании из Республики Беларусь, Казахстана</p>
+				</div>
+				<div class="info__item">
+					<img src="img/svg/circle.svg" alt="">
+					<p><b>Полный комплекс складских услуг:</b><br> прием, хранение, обработка, отгрузка</p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="services" id="services">
+		<div class="container container--bg">
+			
+			<h2>Наши услуги</h2>
+
+			<div class="services__list">
+
+				<div class="services__item">
+					<div class="services__item_header">
+						<h3>Прием</h3>
+						<img src="img/svg/forklift.svg" alt="">
+					</div>
+					<ul>
+						<li><b>Прием товара.</b> От Вас или поставщика</li>
+						<li><b>Выгрузка.</b><br> Механизированная и ручная. Паллеты, коробки, штуки</li>
+						<li><b>Приемка.</b> По количеству мест или единиц товара</li>
+					</ul>
+				</div>
+
+				<div class="services__item">
+					<div class="services__item_header">
+						<h3>Хранение</h3>
+						<img src="img/svg/storage.svg" alt="">
+					</div>
+					<ul>
+						<li><b>Складское хранение.</b><br> Краткосрочное и долгосрочное. Паллетное, стеллажное, мелкоячеистое</li>
+						<li><b>Он -лайн Отчеты. </b><br>Предоставление онлайн отчетов об остатках на складе и движению товаров <br>Предоставление фото отчетов</li>
+					</ul>
+				</div>
+
+				<div class="services__item">
+					<div class="services__item_header">
+						<h3>Обработка</h3>
+						<img src="img/svg/box.svg" alt="">
+					</div>
+					<ul>
+						<li><b>Обработка грузов.</b><br> Переупаковка, расфасовка, маркировка, сортировка розничных и оптовых заказов</li>
+						<li><b>Предпродажная подготовка.</b> Удаление информации и поставщике, вложение рекламных материалов</li>
+						<li><b>Документация.</b><br> Подготовка сопроводительной документации к товарам: счета-фактуры, накладные, спецификации</li>
+					</ul>
+				</div>
+
+				<div class="services__item">
+					<div class="services__item_header">
+						<h3>Отгрузка</h3>
+						<img src="img/svg/box2.svg" alt="">
+					</div>
+					<ul>
+						<li><b>Доставка.</b>Отправка товара транспортными компания по России (ТК Байкал-Сервис, ПЭК, Деловые Линии, Энергия, КИТ) <br>Доставка товаров курьерскими службами по Москве и МО (СДЭК, DPD, Достависта, Пешкарики и др.)</li>
+						<li><b>Отгрузка.</b> Отгрузка товара напрямую Вашим покупателям</li>
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+	<section class="about" id="about">
+		<div class="container container--bg">
+			
+			<div class="about__wrap">
+				<div class="about__wrap_title">
+					<h2>
+						<span>Фулфилмент</span> - это склад на аутсорсе, который выполняет комплекс операций, связанных с продажей товара покупателю: <span>начиная от оформления заказа и заканчивая фактом отправки или вручения покупки.</span>
+					</h2>
+				</div>
+				<div class="about__wrap_content">
+					<p><b>Три основные проблемы торгующих компаний:</b></p>
+					<ul>
+						<li>
+							<b>Склад содержать дорого.</b> Арендная плата - это постоянные расходы, которые не зависят от уровня ваших продаж или количества товарных запасов. Но это далеко не все расходы, так как для функционирования склада необходимо вложить средства в приобретение складских стеллажей, настройку ИТ системы для управления складом, подключение системы видеонаблюдения и охраны, обустройство рабочих мест. Но даже после всего вышеперечисленного, необходима организация эффективного расходования складского пространства, иначе вы будете платить за воздух.
+						</li>
+						<li>
+							<b>Содержание персонала накладно.</b> Приехал товар от поставщика и сотрудники склада не справляются, но при этом большую часть рабочего времени они не загружены - типичная проблема малого бизнеса. Высокая текучка персонала, низкоквалифицированные и недобросовестные сотрудники, частые отгулы, ошибки в работе - это то, с чем приходиться сталкиваться ежедневно.
+						</li>
+						<li>
+							<b>Нехватка времени.</b> Хранение, обработка, сборка, упаковка и доставка составляют до 80% операционной нагрузки малого бизнеса. Вся эта рутина не дает возможности развивать бизнес и двигаться вперед.
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="about__block">
+				<div class="about__block_header">
+					<h2><span>Ответственное хранение и фулфилмент</span> - это лучшее решение</h2>
+					<p>
+						Концентрация на развитии продаж - Мы возьмем на себя полный цикл обработки товаров (прием, хранение, обработка, отгрузка) Вы сможете сфокусироваться на увеличении продаж.
+					</p>
+				</div>
+
+				<div class="about__block_list">
+					<div class="about__block_list--item">
+						<img src="img/svg/area.svg" alt="">
+						<p>
+							Оплата только за фактическую площадь хранения - <b>сокращение затрат на аренду до 40%</b> и  полное отсутствие капитальных затрат
+						</p>
+					</div>
+					<div class="about__block_list--item">
+						<img src="img/svg/employees.svg" alt="">
+						<p>
+							<b>Оптимизация расходов на персонал</b> - нет необходимости нанимать, обучать и контролировать складской персонал, отсутствует текучка кадров, исключены опоздания, прогулы, недобросовестность сотрудников.
+						</p>
+					</div>
+					<div class="about__block_list--item">
+						<img src="img/svg/target.svg" alt="">
+						<p>
+							<b>Концентрация на развитии продаж</b> - Мы возьмем на себя полный цикл обработки товаров (прием, хранение, обработка, отгрузка) Вы сможете сфокусироваться на увеличении продаж.
+						</p>
+					</div>
+				</div>
+
+				<div class="about__block_footer">
+					<h2><span>Для кого подойдет</span> фулфилмент?</h2>
+					<ul>
+						<li>для небольших и средних интернет-магазинов</li>
+						<li>для предпринимателей, работающих в B2B сегменте</li>
+						<li>для компаний, которым необходимо осуществлять периодические отгрузки товара</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="about__slider">
+				<div class="about__slider_title">
+					<h2>Предоставляемые нами услуги ответственного хранения и  фулфилмента готовы <span> удовлетворить любые потребности малого и среднего бизнеса.</span><br> С нами Вы откроете новые горизонты.</h2>
+				</div>
+				<div class="about__slider_wrap">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="img/about__slider1.png" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/about__slider2.png" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/about__slider3.png" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/about__slider4.png" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/about__slider5.png" alt="">
+							</div>
+						</div>
+						<div class="about__slider_next swiper-button-next">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.005 512.005"><g><g><path d="M388.418,240.923L153.751,6.256c-8.341-8.341-21.824-8.341-30.165,0s-8.341,21.824,0,30.165L343.17,256.005L123.586,475.589c-8.341,8.341-8.341,21.824,0,30.165c4.16,4.16,9.621,6.251,15.083,6.251c5.461,0,10.923-2.091,15.083-6.251l234.667-234.667C396.759,262.747,396.759,249.264,388.418,240.923z"/></g></g></svg>
+						</div>
+						<div class="about__slider_prev swiper-button-prev">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.005 512.005"><g><g><path d="M388.418,240.923L153.751,6.256c-8.341-8.341-21.824-8.341-30.165,0s-8.341,21.824,0,30.165L343.17,256.005L123.586,475.589c-8.341,8.341-8.341,21.824,0,30.165c4.16,4.16,9.621,6.251,15.083,6.251c5.461,0,10.923-2.091,15.083-6.251l234.667-234.667C396.759,262.747,396.759,249.264,388.418,240.923z"/></g></g></svg>
+						</div>
+						</div>
+				</div>
+			</div>
+
+			<div class="about__info" id="about__info">
+				<div class="about__info_col">
+					<ul class="about__info_list">
+						<li>
+							<img src="img/svg/piggy-bank.svg" alt="">
+							<b>С нами выгодно.</b> 
+							<span>Средние расходы на аренду склада площадью 30м<sup>2</sup><br> в Москве и работу 1-го кладовщика: 30м<sup>2</sup> *500р. + 40000р. = 55000р.</span>
+						</li>
+					</ul>
+					<p>За эту сумму в месяц мы сделаем для Вас:</p>
+					<ul class="about__info_square">
+						<li>Примем и отгрузим 183 паллеты с грузом или 1527 коробок до 50 кг или<br> 2291 коробку до 15 кг</li>
+						<li>Предоставим 73 квадратных метра для хранения товара </li>
+						<li>Полностью обработаем (примем товар, отберем в заказ, упакуем, загрузим)br	 611 заказов до 15 кг и 5 единиц товара  или 364 заказа до 50 кг и 10 единиц<br> товара</li>
+					</ul>
+					<p>
+						А если у вас сезонный бизнес или временный проект? У нас нет
+						<br> фиксированных платежей! 
+						<b>Вы платите только за фактически занимаемую
+						<br> площадь и обработанные грузы.</b>
+					</p>
+				</div>
+				<div class="about__info_col">
+					<h2>Наши преимущества / <br> <span>Почему с нами выгодно работать</span></h2>
+					<ul class="about__info_list about__info_block">
+						<li>
+							<img src="img/svg/checklist.svg" alt="">
+							<b>Предоставляем все сопутствующие услуги. </b>
+							Оформление пакета документов на товар, вложение рекламных материалов, удаление информации о поставщике, а также обрабатываем индивидуальные запросы.
+						</li>
+						<li>
+							<img src="img/svg/uzel.svg" alt="">
+							<b>Возможность организовать логистический узел.</b>
+							примем товар от Ваших поставщиков, скомплектуем заказ и отгрузим напрямую Вашим клиентам. От Вас требуются только заявки.
+						</li>
+						<li>
+							<img src="img/svg/confirm.svg" alt="">
+							<b>Удобная WMS система. </b>
+							Вы в режиме реального времени сможете контролировать наличие товара на складе, запрашивать обработку товара, формировать заявки на отгрузку.
+						</li>
+						<li>
+							<img src="img/svg/geo.svg" alt="">
+							<b>Удобное расположение.</b>
+							В отличие от большинства компаний ответственного хранения, мы находимся всего в 1км от МКАД, что делает удобным подъезд не только для ваших поставщиков, но и для ваших клиентов.
+						</li>
+						<li>
+							<img src="img/svg/lock.svg" alt="">
+							<b>Гарантии сохранности товара.</b>
+							Территория склада охраняется круглосуточно, установлено видеонаблюдение, вход строго по пропускам, а помещение склада соответствуем всем нормам безопасности .
+						</li>
+						<li>
+							<img src="img/svg/chart.svg" alt="">
+							<b>Рост продаж и прибыли.</b>
+							Работая с нами, Вы сократите расходы времени и средств на логистику и займетесь развитием продаж!
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="rates" id="rates">
+		<div class="container container--bg">
+			<div class="rates__wrap">
+				<h2>
+					<span>Тарифы на услуги</span> ответственного
+					<br> хранения и фулфилмента Вы сможете
+					<br> получить по запросу.
+				</h2>
+				<div class="rates__info">
+					<div>
+						<h3>Адрес склада</h3>
+						<p>МО, с. Беседы, Промышленный<br> проезд, д. 7 (1 км от МКАД)</p>
+					</div>
+					<div>
+						<h3>Часы работы</h3>
+						<p>Пн - Пт с 9:00 до 21:00</p>
+						<p>Сб - Вс с 9:00 до 18:00</p>
+					</div>
+					<div>
+						<h3>Телефон</h3>
+						<p><a href="tel:+1234567890">+1234567890</a></p>
+					</div>
+					<div>
+						<h3>Email</h3>
+						<p><a href="mailto:info@lk-forward.ru">info@lk-forward.ru</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contacts" id="contacts">
+		<div class="container">
+
+			<form class="contacts__form">
+				<div class="contacts__form_header">
+					<h2>Заказать<br>обратный<br>звонок</h2>
+					<p>Оставьте свои данные <br>и мы свяжемся с Вами <br>в ближайшее время</p>
+				</div>
+				<div class="contacts__form_line">
+					<input type="text" name="name" placeholder="Имя" required>
+				</div>
+				<div class="contacts__form_line">
+					<input type="email" name="mail" placeholder="Ваш  email" required>
+				</div>
+				<div class="contacts__form_btn">
+					<input type="tel" name="phone" placeholder="Ваш номер телефона" required>
+					<button type="submit" class="btn btn--contacts" name="submit">Отправить</button>
+				</div>
+			</form>
+
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3789.7339751682734!2d37.78505483959211!3d55.61264226561976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa24477aa9b10159f!2sBIRDHOUSE!5e0!3m2!1sru!2sua!4v1586438115040!5m2!1sru!2sua" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+		</div>
+	</section>
 
 	<footer class="footer">
-		<div class="footer__container container"></div>
+		<div class="footer__container">
+			<p>Copyright © 2020, Логистическая компания "Форвард"</p>
+			<p><a href="http://flex-design.net/" target="_blank">by flexdesign</a></p>
+		</div>
 	</footer>
 
 	<div class="modal" id="order">
 		<form action="sendmail.php" class="form" method="post">
 
-			<button class="close order_close" type="button">
+			<button class="modal__close order_close" type="button">
 				<span></span>
 				<span></span>
 			</button>
 
-			<h3>Оставьте заявку, <br>мы свяжемся с Вами</h3>
+			<h2>Оставьте заявку, <br>мы свяжемся с Вами</h2>
 			<input type="hidden" name="subject" value="Узнать подробнее!">
 
-			<div class="">
+			<div class="modal__line">
 				<input type="text" name="name" placeholder="Имя" required>
 			</div>
-			<div class="">
-				<input type="tel" name="phone" placeholder="Телефон" required>
+			<div class="modal__line">
+				<input type="email" name="mail" placeholder="Ваш  email" required>
 			</div>
-			<div class="">
-				<button type="submit" class="btn" name="submit">Отправить</button>
+			<div class="modal__line">
+				<input type="tel" name="phone" placeholder="Ваш номер телефона" required>
+			</div>
+			<div class="modal__btn">
+				<button type="submit" class="btn btn--modal btn--contacts" name="submit">Отправить</button>
 			</div>
 		</form>
 	</div>

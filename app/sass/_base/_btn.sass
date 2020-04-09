@@ -1,17 +1,44 @@
 .btn
 	position: relative
-	display: flex
+	display: flex !important
 	justify-content: center
 	align-items: center
 	height: 45px
+	padding: 0 30px
+	border: 2px solid #fff
+	border-radius: 3px
+	max-width: fit-content
 	font-size: 18px
 	color: $accent
-	font-weight: 700
-	border-radius: 20px
-	max-width: fit-content
+	font-weight: 500
+	text-transform: uppercase
+	cursor: pointer
+
+	+r(1440)
+		font-size: 16px
+		padding: 0 15px
+
+	+r(1200)
+		font-size: 14px
+		height: 40px
+		padding: 0 10px
 
 	&:hover,
 	&:focus
-		border: 1px solid $accent
+		border: 2px solid $accent
 		background: $accent
 		color: #fff
+
+	&::before,
+	&::after
+		display: none
+
+	&--contacts
+		background-color: #d92a2f
+		border-color: #d92a2f
+		color: #fff
+		padding: 0 30px !important
+	
+	&--modal
+		max-width: 320px
+		width: 100%
